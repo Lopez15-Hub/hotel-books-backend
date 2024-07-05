@@ -9,7 +9,7 @@ const { init } = require("./db.js");
 
 const main = async () => {
   await init();
-  require("./src/data/migrations/associate");
+  require("./src/data/migrations/associate.migration");
   const express = new ExpressService(process.env.PORT);
   express.initialize();
   express.registerMiddlewares([cors(), morgan(), require("express").json()]);

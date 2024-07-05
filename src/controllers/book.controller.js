@@ -2,8 +2,8 @@ const Controller = require("../data/adapters/controller.adapter");
 const BookSchema = require("../data/models/book-schema.model");
 const HttpResponse = require("../data/models/http/http-response.model");
 const ServerError = require("../data/models/http/http-server-error.model");
-const Client = require("../data/migrations/client");
-const Room = require("../data/migrations/room");
+const Client = require("../data/migrations/client.migration");
+const Room = require("../data/migrations/room.migration");
 const { Op } = require("sequelize");
 
 module.exports = class BookController extends Controller {

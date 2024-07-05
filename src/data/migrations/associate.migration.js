@@ -1,6 +1,6 @@
-const Client = require("./client");
-const Room = require("./room");
-const Book = require("./book");
+const Client = require("./client.migration");
+const Room = require("./room.migration");
+const Book = require("./book.migration");
 
 const models = {
   Client,
