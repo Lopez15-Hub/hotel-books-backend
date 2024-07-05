@@ -1,0 +1,28 @@
+# Dependencias instaladas
+node_modules/
+
+# Archivos de configuración local
+.env
+
+# Logs y archivos temporales
+logs/
+*.log
+npm-debug.log*
+
+# Archivos generados por IDEs y editores
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+
+# Archivos de build y distribución
+dist/
+build/
+out/
+
+# Otros
+.DS_Store
+Thumbs.db
