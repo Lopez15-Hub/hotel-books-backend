@@ -13,7 +13,7 @@ Simple CRUD to manage Books in a hotel using node.js and sequelize.
          npm install
 
 3. Setup environments
-    - Create .env file and copy vars from .env.example fill with your credentials
+    - Create .env file and copy vars from .env.example. Fill with your credentials
 
         PORT=4070
     
