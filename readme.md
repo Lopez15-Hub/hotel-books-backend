@@ -12,7 +12,23 @@ Simple CRUD to manage Books in a hotel using node.js and sequelize.
 
          npm install
 
-3.  run the project:
+3. Setup environments
+    - Create .env file and copy vars from .env.example fill with your credentials
+
+        PORT=4070
+    
+        MYSQL_HOST=localhost
+    
+        MYSQL_PORT=3306
+    
+        MYSQL_DATABASE=hotelReservas
+    
+        MYSQL_USER=root
+    
+        MYSQL_PASSWORD=
+
+
+4.  run the project:
 
         npm start
 
